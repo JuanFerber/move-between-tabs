@@ -1,0 +1,9 @@
+v1.0.1
+- Remove unnecessary tabs permission to operate with zero permissions.
+- Optimize service worker queries and add single-tab navigation guard.
+- Translate manifest, background worker, and documentation to English.
+- Add GitHub Actions workflows for ShellCheck and release packaging.
+- Add GitHub Issue Forms for bug reports and feature requests.
+- Add `.gitignore` and interactive release automation script.
+v1.0
+- Initial release with core tab navigation functionality.

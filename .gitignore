@@ -1,0 +1,12 @@
+# Release and temporary files
+tmp.json
+temp_changelog.txt
+*.tmp
+*.zip
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

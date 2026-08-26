@@ -1,0 +1,38 @@
+name: 🐛 Bug Report
+description: Report a bug or unexpected behavior
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for reporting this issue. Please provide the details below to help us reproduce and resolve it.
+  - type: input
+    id: browser-version
+    attributes:
+      label: Browser / Chrome Version
+      placeholder: e.g., Chrome 124.0.x / Brave / Edge
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      placeholder: e.g., Ubuntu 24.04 / Windows 11 / macOS 14
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the Bug
+      placeholder: Clearly describe what went wrong and what you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Open 3 tabs
+        2. Press Alt+Shift+Right
+        3. ...
+    validations:
+      required: false
